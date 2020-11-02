@@ -17,14 +17,13 @@ Git is free software.
 1 git init //初始化仓库
 2 git add <file_name>  .(all file) //添加文件到本地仓库的暂存区
 3 git commit -m 'reference info' //把暂存区文件提交到当前分支，含提示信息
-4 git remote add origin remote_repo_path  //连接远程仓库，创建主分支
-5 git pull origin master //(***) 把本地仓库变化同步远程仓库主分支(首次不用）
+4 git remote add origin remote_repo_path  //连接远程仓库，创建主分支(首次关联时使用）
+5 git pull origin master //(***) 把本地仓库变化同步远程仓库主分支(远程仓库文件发生变化时需先同步，注：local file will be change）
 6 git push -u origin master //把本地仓库文件推送至远程仓库
 
 
 GitHub 账号设置 ssh 公钥信息：https://www.zhihu.com/question/21402411
 
-add a new line for test remote.
 
 
 
