@@ -1,0 +1,25 @@
+knowledge for git,refence link:
+https://www.liaoxuefeng.com/wiki/896043488029600/896067074338496
+在Mac OS X上安装Git:
+“Xcode”->“Preferences”，在弹出窗口中找到“Downloads”，选择“Command Line Tools”，点“Install”就可以完成安装了
+另一种通过homebrew安装。
+win上通过git官网下载安装
+
+设置git提交代码时的用户信息
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+Git is a version control system.
+Git is free software.
+
+克隆远程仓库：git clone git@github.com:snaiheihei/<repo_name>
+向远程仓库提交版本的正确步骤：
+git init //初始化仓库
+git add <file_name> //添加文件到本地仓库的暂存区
+git commit -m 'reference info' //把暂存区文件提交到当前分支，含提示信息
+
+
+
+
+
+
