@@ -24,6 +24,8 @@ Git is free software.
 
 GitHub 账号设置 ssh 公钥信息：https://www.zhihu.com/question/21402411
 
+add a new line for test remote.
+
 
 
 
