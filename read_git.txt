@@ -14,9 +14,20 @@ Git is free software.
 
 克隆远程仓库：git clone git@github.com:snaiheihei/<repo_name>
 向远程仓库提交版本的正确步骤：
-git init //初始化仓库
-git add <file_name> //添加文件到本地仓库的暂存区
-git commit -m 'reference info' //把暂存区文件提交到当前分支，含提示信息
+1 git init //初始化仓库
+2 git add <file_name>  .(all file) //添加文件到本地仓库的暂存区
+3 git commit -m 'reference info' //把暂存区文件提交到当前分支，含提示信息
+4 git remote add origin remote_repo_path  //连接远程仓库，创建主分支
+5 git pull origin master //(***) 把本地仓库变化同步远程仓库主分支(首次不用）
+6 git push -u origin master //把本地仓库文件推送至远程仓库
+
+
+GitHub 账号设置 ssh 公钥信息：https://www.zhihu.com/question/21402411
+
+
+
+
+
 
 
 
