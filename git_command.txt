@@ -1,0 +1,26 @@
+git commands:
+
+git log <file_name>:显示日志信息，--pretty=oneline(一行展示）
+git show sha1(commit id):展示该次提交的详细信息
+git status : 查看工作区，暂存区，主分支的状态信息
+官方撤销操作：
+工作区：git restore <file>
+暂存区：git restore --staged <file>
+git blame <file_name> : 显示文件的每一行最后修改的版本和作者
+    -e 输出user.email替换user.name
+git diff: 
+当工作区有改动，临时区为空，diff的对比是“工作区与最后一次commit提交的仓库的共同文件”；当工作区有改动，临时区不为空，diff对比的是“工作区与暂存区的共同文件”。
+
+manage branch:
+git branch:查看当前分支
+git branch <name>:创建分支
+git switch <name> or git checkout <name>:切换分支
+git switch -c <name> or git checkout -b <name>:创建+切换分支
+git merge <name>:合并某分支到当前分支
+
+
+
+
+
+
+
